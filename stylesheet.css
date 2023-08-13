@@ -18,22 +18,27 @@ h1 {
 }
 header {
   grid-area: header;
+  background:lightblue; 
 }
 
 nav {
   grid-area: nav;
   margin-left: 0.5rem;
+  background:blue; 
 }
 
 main {
   grid-area: content;
+  background:gray; 
 }
 
 aside {
   grid-area: side;
   margin-right: 0.5rem;
+  background:lightgreen; 
 }
 
 footer {
   grid-area: footer;
+  background:green; 
 }
