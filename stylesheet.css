@@ -10,10 +10,11 @@ h1 {
     "nav content side"
     "footer footer footer";
 
-  grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: auto 1fr auto;
+  /* grid-template-columns: 200px 1fr 200px; */
+  grid-template-columns: 1fr 2fr 1fr;
+  /*  grid-template-rows: auto 1fr auto;  */
+  grid-template-rows: 2fr 1fr 2fr;
   grid-gap: 10px;
-
   height: 100vh;
 }
 header {
