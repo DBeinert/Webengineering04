@@ -14,18 +14,18 @@
    body {
     display: grid;
 		gap: 0.5em;
-}
-
-@media (min-width: 45em) { 
-	/* Breite beträgt mindestens 45em */ 
-	body {
-    grid-template-columns: 1fr 3fr 1fr;	
-    grid-template-rows: auto 1fr 100px;
 	}
-}
 
-header,footer {
-	grid-column: 1 / -1;
-}
+	@media (min-width: 45em) { 
+		/* Breite beträgt mindestens 45em */ 
+		body {
+	    grid-template-columns: 1fr 3fr 1fr;	
+	    grid-template-rows: auto 1fr 100px;
+		}
+	}
+	
+	header,footer {
+		grid-column: 1 / -1;
+	}
   </body>
 </html>
